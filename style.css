@@ -315,7 +315,7 @@ font-size: 12px;
   object-fit: cover;
 }
 
-.star-trend {
+.etoiles {
   margin-top: 50px;
 }
 
@@ -329,6 +329,7 @@ font-size: 12px;
 .text-menu{
   display: flex;
   flex-direction: column;
+  justify-content:flex-start;
   height: 150px;
   width: 100%;
   padding-left: 1em;
@@ -498,6 +499,7 @@ a{
 .trendtitle{
   padding: 0em 1em 1em 1em;
 }
+
 .hebergement{
   width: 100%;
   margin-top: 2em;
@@ -506,6 +508,14 @@ a{
 
 #maRecherche{
 height: 42px;
+}
+
+.star-trend {
+  padding-bottom: 50px;
+}
+.etoilesbug {
+  position: relative;
+  bottom: 30px;
 }
 
 .content-box{
@@ -656,6 +666,13 @@ font-size: 1.2em;
   margin-top: 10px;
 }
 
+.deplacer{
+order: 1;
+position: relative;
+bottom:160px;
+left: 200px;
+}
+
 .bouton-filtre a{
   font-size: 1.2em;
 }
@@ -669,6 +686,8 @@ font-size: 1.2em;
   flex-direction: column;
   align-items: initial;
 }
+
+
 /* ************** Trend ******************/
 
 #trend{
@@ -702,6 +721,10 @@ font-size: 1.2em;
 }
 .text-menu .trend-star p{
   margin: 0px;
+}
+
+.etoiles{
+  margin-top: 30%;
 }
 
 /* ************ hébergement *****************/
@@ -777,7 +800,11 @@ font-size: 1.2em;
 }
 
 .flex-activity img, .flex-activity .box-activ2 img{
-height: 220px;
+height: 120px;
+}
+
+.flex-activity img, .flex-activity .box-activ1 img{
+  height: 120px;
 }
 
 .bigbox{
