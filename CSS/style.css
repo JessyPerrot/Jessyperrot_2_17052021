@@ -834,3 +834,12 @@ footer{
 }
 
 }
+
+@media screen and (max-width:480px){
+
+  .deplacer{
+    position: initial;
+  }
+
+}
+  
