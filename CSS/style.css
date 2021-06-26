@@ -842,4 +842,12 @@ footer{
   }
 
 }
+
+@media screen and (min-width:477px) and (max-width:730px){
+
+  .deplacer{
+    position: initial;
+  }
+}
+  
   
